@@ -1,0 +1,16 @@
+{
+  "name": "pz-gof",
+  "version": "1.0.0",
+  "description": "Design Patterns Implementation",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/examples/run-all.js"
+  },
+  "devDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
