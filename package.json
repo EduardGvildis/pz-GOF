@@ -5,7 +5,19 @@
   "main": "dist/index.js",
   "scripts": {
     "build": "tsc",
-    "start": "node dist/examples/run-all.js"
+    "start": "node dist/examples/run-all.js",
+    "strategy": "npx ts-node src/behavioral/strategy/example.ts",
+    "strategy:anti": "npx ts-node src/behavioral/strategy/anti-example.ts",
+    "observer": "npx ts-node src/behavioral/observer/example.ts",
+    "observer:anti": "npx ts-node src/behavioral/observer/anti-example.ts",
+    "builder": "npx ts-node src/creational/singleton/example.ts",
+    "builder:anti": "npx ts-node src/creational/singleton/anti-example.ts",
+    "factory-method": "npx ts-node src/creational/factory-method/example.ts",
+    "factory-method:anti": "npx ts-node src/creational/factory-method/anti-example.ts",
+    "adapter": "npx ts-node src/structural/adapter/example.ts",
+    "adapter:anti": "npx ts-node src/structural/adapter/anti-example.ts",
+    "decorator": "npx ts-node src/structural/decorator/example.ts",
+    "decorator:anti": "npx ts-node src/structural/decorator/anti-example.ts"
   },
   "devDependencies": {
     "typescript": "^5.0.0"
