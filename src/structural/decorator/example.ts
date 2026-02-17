@@ -1,6 +1,7 @@
 import { Coffee, SimpleCoffee } from './index';
 import {MilkDecorator} from './milkDecorator';
 import {SugarDecorator} from './SugarDecorator'
+import {DoubleExpresso} from "./DoubleExpresso";
 
 console.log('=== Патерн Декоратор ===');
 
@@ -16,5 +17,7 @@ console.log(`${coffee.description()}: $${coffee.cost()}`);
 coffee = new SugarDecorator(coffee);
 console.log(`${coffee.description()}: $${coffee.cost()}`);
 
+coffee = new DoubleExpresso(coffee)
+console.log(`${coffee.description()}: $${coffee.cost()}`);
 // Без патерна: Багато підкласів для комбінацій (MilkSugarCoffee, тощо).
 // З патерном: Гнучка композиція під час виконання.
