@@ -16,4 +16,3 @@ function useAmericanClient(plug: any) {
 const eu = new EuropeanSocket();
 useAmericanClient(eu);
 
-// замість цього краще зробити адаптер і залишити клієнта чистим.

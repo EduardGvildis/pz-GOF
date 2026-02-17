@@ -26,7 +26,7 @@ console.log('BubbleSort:', sorter.sortData([3, 1, 4, 1, 5]));
 
 // Зміна стратегії під час виконання
 sorter.setStrategy(new QuickSort());
-console.log('QuickSorts.ts:', sorter.sortData([3, 1, 4, 1, 5]));
+console.log('QuickSort:', sorter.sortData([3, 1, 4, 1, 5]));
 ```
 
 ## Переваги

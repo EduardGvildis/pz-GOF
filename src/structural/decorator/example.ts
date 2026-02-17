@@ -1,4 +1,6 @@
-import { Coffee, SimpleCoffee, MilkDecorator, SugarDecorator } from './index';
+import { Coffee, SimpleCoffee } from './index';
+import {MilkDecorator} from './milkDecorator';
+import {SugarDecorator} from './SugarDecorator'
 
 console.log('=== Патерн Декоратор ===');
 

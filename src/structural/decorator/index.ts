@@ -29,24 +29,3 @@ export abstract class CoffeeDecorator implements Coffee {
   abstract cost(): number;
   abstract description(): string;
 }
-
-// Конкретні декоратори
-export class MilkDecorator extends CoffeeDecorator {
-  cost(): number {
-    return this.coffee.cost() + 2;
-  }
-
-  description(): string {
-    return this.coffee.description() + ', with milk';
-  }
-}
-
-export class SugarDecorator extends CoffeeDecorator {
-  cost(): number {
-    return this.coffee.cost() + 1;
-  }
-
-  description(): string {
-    return this.coffee.description() + ', with sugar';
-  }
-}
